@@ -6,4 +6,21 @@
     
     console.log([0, 1, 2, 3, 4, 5].slice(2,5));     //the .slice method takes the first inputed index and the last inputed index and prints the indexs' inbetween them 
     // [2, 3, 4]                                        including the first index
+    
+    
+    console.log('coconuts'.slice(4,7));
+    // nut
+    
+    console.log('coconuts'.indexOf('u'));
+    // 5
+    
+    var string = 'abc'
+    console.log(string.length);
+    //3
+    
+    console.log(string.charAt(0));
+    //a
+    
+    console.log(string[1]);     //indexOf but quirky
+    //b
 
